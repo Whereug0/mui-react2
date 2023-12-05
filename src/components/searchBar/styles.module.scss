@@ -1,0 +1,28 @@
+.searchBar {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .searchWrapper {
+        width: 450px;
+        border: 1px solid grey;
+    }
+    .search {
+        margin: 10px 10px 10px 15px;
+        width: 400px;
+        border-radius: 15px;
+        height: 50px;
+    }
+    .appBar {
+        width: 1320px;
+        border-radius: 20px;
+        background: white;
+        color: black;
+        box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+        .toolbar {
+            padding: 0;
+        }
+    }
+}

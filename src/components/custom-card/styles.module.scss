@@ -1,0 +1,22 @@
+.cardBox {
+    width: 30%;
+    margin-bottom: 20px;
+    .cardItem {
+        box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    }
+    .icons-text {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .time {
+        display: flex;
+        align-items: center;
+    }
+    .downloads {
+        display: flex;
+        align-items: center;
+    }
+}

@@ -1,0 +1,31 @@
+.import-export {
+    display: flex;
+    gap: 10px;
+    margin-left: 38px;
+    color: black;
+    margin-top: 10px;
+}
+.title-btn {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+
+    .addBtn {
+        background: black;
+        color: white;
+        &:hover {
+            background-color: grey;
+            color: black;
+            transition: .3s;
+        }
+    }
+
+}
+
+
+
+.iconbtn {
+    font-size: small;
+}
