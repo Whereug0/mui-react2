@@ -10,7 +10,7 @@ import FileDownloadSharpIcon from '@mui/icons-material/FileDownloadSharp';
 export default function CustomCard() {
   return (
     <div className={styles.cardBox}>
-      <Card className={styles.cardItem} sx={{ maxWidth: 300 }}>
+      <Card className={styles.cardItem} sx={{ maxWidth: 450 }}>
         <CardActionArea>
           <CardMedia
             component="img"

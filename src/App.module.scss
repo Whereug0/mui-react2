@@ -5,11 +5,19 @@
   justify-content: center;
   .cardsWrapper {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 40px;
     padding: 20px;
     width: 1250px;
   
   }
+}
+
+.pagination {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  
 }
